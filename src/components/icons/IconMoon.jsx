@@ -1,4 +1,4 @@
-const MoonIcon = ({ fill = "#fff", ...props }) => {
+const IconMoon = ({ fill = "#fff", ...props }) => {
     /* las llaves {} rosadas son desestructuracion*/
     /* el ...props que le estoy pasando es rest operator, el resto de 
     las propiedades agrupalas en la variable llamada props, hace un iterable 
@@ -21,4 +21,4 @@ const MoonIcon = ({ fill = "#fff", ...props }) => {
     );
 };
 
-export default MoonIcon;
+export default IconMoon;
